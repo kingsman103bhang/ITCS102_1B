@@ -1,0 +1,1 @@
+print("hello crush \nhi? \npede crush back? \nbawal hehehe")
