@@ -1,0 +1,14 @@
+marc = 900000
+marc2 = 20000000
+
+b = 9999
+a = 9999
+
+name1 = "hello"
+name2 = "Helllo"
+
+print( marc < marc2 )
+print( a > b )
+print( a >= b )
+print(name1 == name2)
+print(name1 != name2) 
