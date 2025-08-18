@@ -1,0 +1,9 @@
+n1 = 9
+print("the calue of a is",n1)
+n1 += 10
+n1 -+ 10
+n1 *= 9
+n1 += 5
+n1 = n1 + 6
+print("the value of",n1)
+
