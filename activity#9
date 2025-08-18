@@ -1,0 +1,16 @@
+Naruto = 9999
+Sasuke = 9999
+
+Sakura = 9998
+Hinata = 9999
+
+neji = 8888
+ino = 8888
+
+username = 'Minato'
+password = 'kushina'
+
+print((username == 'Minato') and (password == 'kushina'))
+print((Naruto > Sasuke) and (Sakura < Hinata)) 
+print((Naruto > Sasuke) or (Sakura < Hinata)) 
+print(not((Naruto > Sasuke) and (Sakura < Hinata))) 
