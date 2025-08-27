@@ -1,0 +1,10 @@
+username = "sample user"
+password = "etlog3"
+
+uname = input("enter name")
+pword = input("eneter password")
+
+if (uname == username) and (pword == password):
+	print("correct username")
+else:
+	print("access denied")
