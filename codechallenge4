@@ -1,0 +1,55 @@
+print("Welcome Manga Fan's are you looking to read")
+print("heres the list of genre \nAction \nComedy \nDrama \nRomance")
+genre = input("Enter your choice : ").lower()
+if genre == "action":
+    print("Here's the list please type the number \n1.Naruto \n2.Attack on titan \n3.One Piece \n4.Demon Slayer \n5.My Hero Academia")
+    action_manga = input("please select a manga : ")
+    if action_manga == "1":
+        print("Author : Masashi Kishimoto")
+    if action_manga =="2":
+        print("Author : Hajime Isayama")
+    if action_manga == "3":
+        print("Author : Eiichiro Oda")
+    if action_manga == "4":
+        print("Author : Koyoharu Gotouge")
+    if action_manga == "5":
+        print("Author : Kohei Horikoshi")
+if genre == "comedy":
+    print("Here's the list please type the number \n6.Gintama \n7.Bokonopiko \n8.Toradora \n9.Lucky Star \n10.School Rumble")
+    comedy_manga = input("please select a manga : ")
+    if comedy_manga == "6":
+       print("Author : Hideaki Sorachi")
+    if comedy_manga == "7":
+       print("Author : Aoi Madoka")
+    if comedy_manga == "8":
+       print("Author : Yuyuko Takemiya")
+    if comedy_manga == "9":
+       print("Author : Kagami Yoshimizu")
+    if comedy_manga == "10":
+       print("Jin Kobayashi")  
+if genre == "drama":
+    print("Here's the list please type the number \n11.Your Lie In April \n12.Orange \n13.Anohan \n14.Clannad \n15.A Silent Voice")
+    drama_manga = input("please selevt a manga : ")
+    if drama_manga == "11":
+       print("Author : Naoshi Arakawa")
+    if drama_manga == "12":
+       print("Author : Ichigo takano")
+    if drama_manga == "13":
+       print("Author : Mari Okada")
+    if drama_manga == "14":
+       print("Author : Jun Maeda")
+    if drama_manga == "15":
+       print("Author : Yoshitoki Oima")
+if genre == "romance":
+    print("Here's the list please type the number \n16.Golden time \n17.Fruit Basket \n18.False LOve \n19.Your Name \n20.Haru Ride")
+    romance_manga = input("please selevt a manga : ")
+    if romance_manga == "16":
+       print("Author : Yuyuko takemiya")
+    if romance_manga ==  "17":
+       print("Author : Natsuki takaya")
+    if romance_manga == "18":
+       print("Author : Naoshi komi")
+    if romance_manga == "19":
+       print("Author : Makoto Shinkai")
+    if romance_manga == "20":
+       print("Author : Io Sakisaka")  
