@@ -1,0 +1,4 @@
+countdown = eval(input("Enter the starting number for countdown --> "))
+for count in range(countdown,0,-1):
+    print(count)
+print("we counted down 1-10")
