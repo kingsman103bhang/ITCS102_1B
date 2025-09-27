@@ -1,0 +1,5 @@
+say = str(input("What do you want your parrot to say?--> "))
+repeat = eval(input("How many times should the parrot squawk it? --> "))
+
+for p in range(repeat,0,-1):
+   print("🦜",say)
